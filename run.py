@@ -54,5 +54,3 @@ for video_title, video_id in videos.items():
 
 print(f"Total videos: {len(videos)}")
 print(f"Thumbnails retrieved: {len(os.listdir(save_folder))}")
-
-print(f"Video information saved to {output_file}.")
